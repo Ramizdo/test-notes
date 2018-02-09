@@ -39,12 +39,16 @@
                 </ul>
             </li>
         </div> -->
-        <a [routerLink]="['/blank-page']" [routerLinkActive]="['router-link-active']" class="list-group-item">
-            <i class="fa fa-file-o"></i>&nbsp;{{ 'Blank Page' | translate }}
-        </a>
         <a [routerLink]="['/notes']" [routerLinkActive]="['router-link-active']" class="list-group-item">
             <i class="fa fa-plus"></i>&nbsp;{{ 'Notes' | translate }}
         </a>
+        <a [routerLink]="['/maps']" [routerLinkActive]="['router-link-active']" class="list-group-item">
+            <i class="fa fa-fw fa-edit"></i>&nbsp;{{ 'Maps' | translate }}
+        </a>
+        <a [routerLink]="['/blank-page']" [routerLinkActive]="['router-link-active']" class="list-group-item">
+            <i class="fa fa-file-o"></i>&nbsp;{{ 'Blank Page' | translate }}
+        </a>
+        
         <!--<a class="list-group-item more-themes" href="http://www.strapui.com/" >
             {{ 'More Theme' | translate }}
         </a>-->

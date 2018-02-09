@@ -1,0 +1,8 @@
+<div [@routerTransition]>
+    <app-page-header [heading]="'GOOGLE MAPS'" [icon]="'fa-bar-chart-o'">
+    </app-page-header>
+
+		<agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom">
+		  	<agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+		</agm-map>
+</div>
